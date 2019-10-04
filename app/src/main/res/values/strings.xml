@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">GGC Student Picker</string>
+    <string name="action_settings">Settings</string>
+    <string name="ggc_b_building_graphic">GGC B Building Graphic</string>
+    <string name="title_activity_ocr">OCRActivity</string>
+    <string name="action_ocr_camera">Read from Camera</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_tts">Enable Text-to-Speech</string>
+    <string name="pref_description_tts">Have the phone speak names as they are picked
+    </string>
+
+    <string name="pref_title_vibration">Enable Vibration</string>
+    <string name="pref_description_vibration">Have the phone vibrate when you roll the dice
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="addName">Add Name</string>
+    <string name="clearList">Clear List</string>
+    <string name="sortList">Sort List</string>
+    <string name="shuffleList">Shuffle List</string>
+    <string name="delete">Delete</string>
+    <string name="hideUnhide">Hide/Unhide</string>
+    <string name="savedList">saved list</string>
+    <string name="about">About</string>
+    <string name="byZehraSiddiqui">By Zehra Siddiqui</string>
+    <string name="dateCreated">October 16th, 2018</string>
+    <string name="className">Created For ITEC 4450</string>
+    <string name="aboutStudentPicker">This app was created for Mobile App Development. It allows
+        the user to add names into a listView via the camera (OCR) or by manually adding each name.
+        The user may then go to each student, long press and choose whether to delete or
+        hide/unhide the student. The gray dice button randomly picks a student, and the user may
+        turn on/off audio and vibrations via the settings in the menu.</string>
+
+    <string-array name="longPressMenu">
+        <item>Delete</item>
+        <item>Hide/Unhide</item>
+    </string-array>
+</resources>

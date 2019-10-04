@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.ggc.lutz.ggcpicker.PickerActivity">
+    <item
+        android:id="@+id/action_ocr_camera"
+        android:orderInCategory="100"
+        android:title="@string/action_ocr_camera"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/addName"
+        android:orderInCategory="100"
+        android:title="@string/addName"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sortList"
+        android:orderInCategory="100"
+        android:title="@string/sortList"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/shuffleList"
+        android:orderInCategory="100"
+        android:title="@string/shuffleList"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/clearList"
+        android:orderInCategory="100"
+        android:title="@string/clearList"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>
